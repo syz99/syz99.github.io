@@ -8,36 +8,35 @@ body {
   width: 100%;
   height: 100%; }
 
-h1 {
-  display: inline; }
-
 #banner {
-  position: relative;
   font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
-  background: url("../img/bg-pattern.png"), #103f82;
-  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to right, #103f82, #4f9347);
-  background: url("../img/bg-pattern.png"), linear-gradient(to right, #103f82, #4f9347);
+  background: url("../img/bg-pattern.png"), #000000;
+  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to right, #000000, #115b9c);
+  background: url("../img/bg-pattern.png"), linear-gradient(to right, #000000, #115b9c);
 }
 /* 
-original gradient: #7b4397 + #dc2430
-dark to light blue: #103f82 + #2292d7
+original gradient: #7b4397 + #dc2430 right
+first concept blue to green: #103f82 + #4f9347 right
+dark to light blue: #103f82 + #2292d7 right
+black to blue: #000000 + #103f82 right
+black to lighter blue: #000000 to #115b9c right
 */
 
-.inner-content {
+/*.inner-content {
   max-width: 511px;
   min-width: 100px;
   margin-bottom: 100px;
-}
-
-.icons {
-  display: inline;
-  list-style-type: none;
-  padding-right: 20px;
 }
 i {
   height: 30px;
   padding-left: 100px;
 }
+*/
+.icons {
+  list-style-type: none;
+  padding-right: 20px;
+}
+
 .fa-facebook,
 .fa-instagram,
 .fa-linkedin,
@@ -50,16 +49,14 @@ i {
   color: white; }
 .fa-circle {
   color: white;
-  font-size: 8px; 
-  text-align: center; }
+  font-size: 8px; }
 
 .shimmer {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: strong;
   font-size: 1.7em;
   margin: 0 auto;
-  padding: 0 140px 0 0;
-  display: inline; }
+  padding-top: 20%; }
 .shimmer {
   text-align: center;
   color: rgba(255, 255, 255, 0.72);
@@ -97,3 +94,40 @@ i {
 @keyframes shimmer {
   0% {background-position: top left;}
   100% {background-position: top right;} }
+
+#banner {
+    margin-top: 25px;
+    font-size: 21px;
+    text-align: center;
+
+    -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 5s; /* Firefox < 16 */
+        -ms-animation: fadein 5s; /* Internet Explorer */
+         -o-animation: fadein 5s; /* Opera < 12.1 */
+            animation: fadein 5s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
