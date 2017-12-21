@@ -202,9 +202,9 @@ body {
   
 #banner {
   font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
-  background: url("../img/bg-pattern.png"), #000000;
-  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to right, #000000, #103f82);
-  background: url("../img/bg-pattern.png"), linear-gradient(to right, #000000, #103f82);
+  background: url("../img/banner.jpg"), #7b4397;
+  background: url("../img/banner.jpg"), -webkit-linear-gradient(to right, #7b4397, #dc2430);
+  background: url("../img/banner.jpg"), linear-gradient(to right, #7b4397, #dc2430);
 }
 /* 
 original gradient: #7b4397 + #dc2430 right
@@ -443,11 +443,11 @@ ul {
   100% {background-position: top right;} }
 
 #icon {
-  -webkit-animation: fadein 30s; 
-       -moz-animation: fadein 30s; 
-        -ms-animation: fadein 30s; 
-         -o-animation: fadein 30s; 
-            animation: fadein 30s; 
+  -webkit-animation: fadein 25s; 
+       -moz-animation: fadein 25s; 
+        -ms-animation: fadein 25s; 
+         -o-animation: fadein 25s; 
+            animation: fadein 25s; 
 }
 #inner-content {
   padding-bottom: 10%;
@@ -547,5 +547,14 @@ ul {
       right: 0;
     }
 
+img {
+  margin-left: 100px;
+  border-radius: 1%;
 
+  -webkit-animation: fadein 35s; 
+       -moz-animation: fadein 35s; 
+        -ms-animation: fadein 35s; 
+         -o-animation: fadein 35s; 
+            animation: fadein 35s; 
+}
 
