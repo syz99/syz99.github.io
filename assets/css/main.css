@@ -275,6 +275,7 @@
 /* Icon */
 
 .icon {
+	font-size: 16px;
 	text-decoration: none;
 	border-bottom: none;
 	position: relative; }
