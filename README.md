@@ -1,5 +1,13 @@
 ## About
 
+This is a personal website designed with a Boostrap theme.
+
+Inspired from:
+
+* https://github.com/mmshi/mmshi.github.io
+
+## Details
+
 Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
 
 * https://startbootstrap.com
