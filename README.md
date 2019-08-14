@@ -1,6 +1,6 @@
 ## About
 
-This is a personal website designed with a Boostrap theme.
+my personal website built w/ Bootstrap
 
 Inspired from:
 
